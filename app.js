@@ -126,14 +126,14 @@ const numberOfOrders = (orders) => {
   return orders.length;
 }
 
-console.log(numberOfOrders(data));
+// console.log(numberOfOrders(data));
 
 const unitsSold = (orders) => {
   const items = orders.flatMap(order => order.items);
   return items.reduce((total, item) => total + item.quantity, 0);
 }
 
-console.log(unitsSold(data));
+// console.log(unitsSold(data));
 
 const revenuePerCategory = (orders) => {
   return orders.flatMap(order => order.items)
@@ -143,5 +143,42 @@ const revenuePerCategory = (orders) => {
     }, {});
 }
 
-console.log(revenuePerCategory(data));
+// console.log(revenuePerCategory(data));
 
+const topSellingProducts = (orders) => {
+  const items = orders.flatMap(order => order.items);
+  const itemTotals = items.reduce((aggregate, item) => { 
+    aggregate[item.product] = (aggregate[item.product] || 0) + item.quantity;
+    return aggregate;
+  }, {});
+  let counts = Object.entries(itemTotals)
+    .sort((a, b) => b[1] - a[1]);
+  return Object.fromEntries(counts.slice(0,5));
+}
+
+// console.log(topSellingProducts(data));
+
+// searching
+
+const ordersForCustomer = (orders, customer) => {
+  return orders.filter(order => order.customer === customer);
+}
+
+// console.log(ordersForCustomer(data, 'Mateo Silva'));
+
+const ordersContainingProduct = (orders, product) => {
+  return orders.filter(order => {
+    return order.items.some(item => item.product === product);
+  });
+}
+
+// console.log(ordersContainingProduct(data, 'USB-C Hub'));
+
+const productsMatchingSearchTerm = (orders, searchTerm) => {
+  searchTerm = searchTerm.toLowerCase();
+  const items = orders.flatMap(order => order.items);
+  const matchingProducts = items.filter(({product}) => product.toLowerCase().includes(searchTerm));
+  return new Set(matchingProducts.map(({product}) => product));
+}
+
+console.log((productsMatchingSearchTerm(data, 'usb')));
