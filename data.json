@@ -1,0 +1,984 @@
+[
+  {
+    "id": "ORD-0001",
+    "customer": "Harper Davis",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Laptop Stand",
+        "category": "Office",
+        "quantity": 1,
+        "price": 42.0
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 1,
+        "price": 45.0
+      },
+      {
+        "product": "USB-C Hub",
+        "category": "Electronics",
+        "quantity": 4,
+        "price": 49.95
+      }
+    ],
+    "total": 286.8,
+    "createdAt": "2026-08-04"
+  },
+  {
+    "id": "ORD-0002",
+    "customer": "Maya Rodriguez",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "French Press",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 36.0
+      },
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 2,
+        "price": 64.99
+      }
+    ],
+    "total": 150.98,
+    "createdAt": "2026-08-28"
+  },
+  {
+    "id": "ORD-0003",
+    "customer": "Harper Davis",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 3,
+        "price": 79.95
+      },
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 64.99
+      }
+    ],
+    "total": 304.84,
+    "createdAt": "2026-09-23"
+  },
+  {
+    "id": "ORD-0004",
+    "customer": "Mateo Silva",
+    "country": "Brazil",
+    "status": "pending",
+    "items": [
+      {
+        "product": "USB-C Hub",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 49.95
+      },
+      {
+        "product": "Laptop Stand",
+        "category": "Office",
+        "quantity": 1,
+        "price": 42.0
+      },
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 68.0
+      }
+    ],
+    "total": 254.85,
+    "createdAt": "2026-09-13"
+  },
+  {
+    "id": "ORD-0005",
+    "customer": "Liam Chen",
+    "country": "Canada",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 4,
+        "price": 68.0
+      },
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 89.99
+      },
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 4,
+        "price": 29.99
+      }
+    ],
+    "total": 481.95,
+    "createdAt": "2026-09-14"
+  },
+  {
+    "id": "ORD-0006",
+    "customer": "Isabella Rossi",
+    "country": "Italy",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 1,
+        "price": 29.99
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 34.5
+      }
+    ],
+    "total": 98.99,
+    "createdAt": "2026-09-16"
+  },
+  {
+    "id": "ORD-0007",
+    "customer": "Liam Chen",
+    "country": "Canada",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 2,
+        "price": 58.75
+      },
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 3,
+        "price": 79.95
+      },
+      {
+        "product": "Backpack",
+        "category": "Travel",
+        "quantity": 3,
+        "price": 74.5
+      },
+      {
+        "product": "Notebook",
+        "category": "Office",
+        "quantity": 2,
+        "price": 12.5
+      }
+    ],
+    "total": 590.85,
+    "createdAt": "2026-08-13"
+  },
+  {
+    "id": "ORD-0008",
+    "customer": "Emma Garcia",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "French Press",
+        "category": "Kitchen",
+        "quantity": 2,
+        "price": 36.0
+      },
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total": 126.98,
+    "createdAt": "2026-08-10"
+  },
+  {
+    "id": "ORD-0009",
+    "customer": "Ava Johnson",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Wall Clock",
+        "category": "Home",
+        "quantity": 1,
+        "price": 31.25
+      },
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 68.0
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 1,
+        "price": 45.0
+      }
+    ],
+    "total": 212.25,
+    "createdAt": "2026-08-29"
+  },
+  {
+    "id": "ORD-0010",
+    "customer": "Ava Johnson",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 3,
+        "price": 45.0
+      },
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 2,
+        "price": 64.99
+      }
+    ],
+    "total": 249.98,
+    "createdAt": "2026-08-09"
+  },
+  {
+    "id": "ORD-0011",
+    "customer": "Ethan Brown",
+    "country": "Canada",
+    "status": "pending",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 2,
+        "price": 58.75
+      },
+      {
+        "product": "USB-C Hub",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 49.95
+      }
+    ],
+    "total": 252.35,
+    "createdAt": "2026-09-28"
+  },
+  {
+    "id": "ORD-0012",
+    "customer": "Lucas Martin",
+    "country": "France",
+    "status": "pending",
+    "items": [
+      {
+        "product": "Laptop Stand",
+        "category": "Office",
+        "quantity": 4,
+        "price": 42.0
+      },
+      {
+        "product": "USB-C Hub",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 49.95
+      },
+      {
+        "product": "French Press",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 36.0
+      }
+    ],
+    "total": 253.95,
+    "createdAt": "2026-09-21"
+  },
+  {
+    "id": "ORD-0013",
+    "customer": "Sofia Patel",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 4,
+        "price": 64.99
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 34.5
+      },
+      {
+        "product": "Water Bottle",
+        "category": "Home",
+        "quantity": 1,
+        "price": 24.0
+      },
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 68.0
+      }
+    ],
+    "total": 440.46,
+    "createdAt": "2026-08-21"
+  },
+  {
+    "id": "ORD-0014",
+    "customer": "Isabella Rossi",
+    "country": "Italy",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 4,
+        "price": 58.75
+      }
+    ],
+    "total": 235.0,
+    "createdAt": "2026-09-13"
+  },
+  {
+    "id": "ORD-0015",
+    "customer": "Ethan Brown",
+    "country": "Canada",
+    "status": "completed",
+    "items": [
+      {
+        "product": "French Press",
+        "category": "Kitchen",
+        "quantity": 3,
+        "price": 36.0
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 34.5
+      }
+    ],
+    "total": 177.0,
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": "ORD-0016",
+    "customer": "Oliver Smith",
+    "country": "Australia",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 3,
+        "price": 79.95
+      },
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 89.99
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 34.5
+      }
+    ],
+    "total": 578.82,
+    "createdAt": "2026-08-01"
+  },
+  {
+    "id": "ORD-0017",
+    "customer": "Noah Williams",
+    "country": "United Kingdom",
+    "status": "cancelled",
+    "items": [
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 4,
+        "price": 29.99
+      }
+    ],
+    "total": 119.96,
+    "createdAt": "2026-08-11"
+  },
+  {
+    "id": "ORD-0018",
+    "customer": "Isabella Rossi",
+    "country": "Italy",
+    "status": "completed",
+    "items": [
+      {
+        "product": "French Press",
+        "category": "Kitchen",
+        "quantity": 4,
+        "price": 36.0
+      },
+      {
+        "product": "USB-C Hub",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 49.95
+      },
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 2,
+        "price": 58.75
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 3,
+        "price": 45.0
+      }
+    ],
+    "total": 491.4,
+    "createdAt": "2026-08-17"
+  },
+  {
+    "id": "ORD-0019",
+    "customer": "Harper Davis",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 2,
+        "price": 45.0
+      },
+      {
+        "product": "French Press",
+        "category": "Kitchen",
+        "quantity": 2,
+        "price": 36.0
+      },
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 79.95
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 34.5
+      }
+    ],
+    "total": 345.45,
+    "createdAt": "2026-09-17"
+  },
+  {
+    "id": "ORD-0020",
+    "customer": "Lucas Martin",
+    "country": "France",
+    "status": "cancelled",
+    "items": [
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 89.99
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 34.5
+      }
+    ],
+    "total": 158.99,
+    "createdAt": "2026-08-30"
+  },
+  {
+    "id": "ORD-0021",
+    "customer": "Maya Rodriguez",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 4,
+        "price": 58.75
+      },
+      {
+        "product": "Backpack",
+        "category": "Travel",
+        "quantity": 2,
+        "price": 74.5
+      }
+    ],
+    "total": 374.0,
+    "createdAt": "2026-08-10"
+  },
+  {
+    "id": "ORD-0022",
+    "customer": "Sofia Patel",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 4,
+        "price": 68.0
+      },
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 2,
+        "price": 79.95
+      }
+    ],
+    "total": 431.9,
+    "createdAt": "2026-09-30"
+  },
+  {
+    "id": "ORD-0023",
+    "customer": "Liam Chen",
+    "country": "Canada",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Water Bottle",
+        "category": "Home",
+        "quantity": 1,
+        "price": 24.0
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 1,
+        "price": 45.0
+      },
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 79.95
+      }
+    ],
+    "total": 143.95,
+    "createdAt": "2026-09-25"
+  },
+  {
+    "id": "ORD-0024",
+    "customer": "Mateo Silva",
+    "country": "Brazil",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Laptop Stand",
+        "category": "Office",
+        "quantity": 4,
+        "price": 42.0
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 2,
+        "price": 45.0
+      }
+    ],
+    "total": 253.0,
+    "createdAt": "2026-08-14"
+  },
+  {
+    "id": "ORD-0025",
+    "customer": "Sofia Patel",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Wall Clock",
+        "category": "Home",
+        "quantity": 4,
+        "price": 31.25
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 34.5
+      }
+    ],
+    "total": 159.5,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "ORD-0026",
+    "customer": "Harper Davis",
+    "country": "United States",
+    "status": "cancelled",
+    "items": [
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 2,
+        "price": 45.0
+      }
+    ],
+    "total": 90.0,
+    "createdAt": "2026-08-02"
+  },
+  {
+    "id": "ORD-0027",
+    "customer": "Ava Johnson",
+    "country": "United States",
+    "status": "pending",
+    "items": [
+      {
+        "product": "Wall Clock",
+        "category": "Home",
+        "quantity": 1,
+        "price": 31.25
+      },
+      {
+        "product": "Water Bottle",
+        "category": "Home",
+        "quantity": 2,
+        "price": 24.0
+      }
+    ],
+    "total": 74.25,
+    "createdAt": "2026-10-01"
+  },
+  {
+    "id": "ORD-0028",
+    "customer": "Maya Rodriguez",
+    "country": "United States",
+    "status": "pending",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 4,
+        "price": 58.75
+      },
+      {
+        "product": "Water Bottle",
+        "category": "Home",
+        "quantity": 2,
+        "price": 24.0
+      },
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 2,
+        "price": 29.99
+      },
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 68.0
+      }
+    ],
+    "total": 546.98,
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": "ORD-0029",
+    "customer": "Maya Rodriguez",
+    "country": "United States",
+    "status": "cancelled",
+    "items": [
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 4,
+        "price": 89.99
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 2,
+        "price": 45.0
+      },
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 64.99
+      }
+    ],
+    "total": 504.95,
+    "createdAt": "2026-08-08"
+  },
+  {
+    "id": "ORD-0030",
+    "customer": "Liam Chen",
+    "country": "Canada",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Backpack",
+        "category": "Travel",
+        "quantity": 2,
+        "price": 74.5
+      }
+    ],
+    "total": 144.0,
+    "createdAt": "2026-08-09"
+  },
+  {
+    "id": "ORD-0031",
+    "customer": "Liam Chen",
+    "country": "Canada",
+    "status": "cancelled",
+    "items": [
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 64.99
+      }
+    ],
+    "total": 59.98,
+    "createdAt": "2026-09-01"
+  },
+  {
+    "id": "ORD-0032",
+    "customer": "Lucas Martin",
+    "country": "France",
+    "status": "cancelled",
+    "items": [
+      {
+        "product": "Laptop Stand",
+        "category": "Office",
+        "quantity": 3,
+        "price": 42.0
+      },
+      {
+        "product": "Backpack",
+        "category": "Travel",
+        "quantity": 2,
+        "price": 74.5
+      },
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 3,
+        "price": 29.99
+      }
+    ],
+    "total": 359.97,
+    "createdAt": "2026-09-10"
+  },
+  {
+    "id": "ORD-0033",
+    "customer": "Sofia Patel",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Notebook",
+        "category": "Office",
+        "quantity": 4,
+        "price": 12.5
+      },
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 68.0
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 34.5
+      },
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 89.99
+      }
+    ],
+    "total": 322.48,
+    "createdAt": "2026-09-08"
+  },
+  {
+    "id": "ORD-0034",
+    "customer": "Emma Garcia",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 2,
+        "price": 45.0
+      }
+    ],
+    "total": 90.0,
+    "createdAt": "2026-09-14"
+  },
+  {
+    "id": "ORD-0035",
+    "customer": "Emma Garcia",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Chef Knife",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 64.99
+      },
+      {
+        "product": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 68.0
+      },
+      {
+        "product": "Backpack",
+        "category": "Travel",
+        "quantity": 1,
+        "price": 74.5
+      }
+    ],
+    "total": 343.49,
+    "createdAt": "2026-09-26"
+  },
+  {
+    "id": "ORD-0036",
+    "customer": "Emma Garcia",
+    "country": "United States",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 2,
+        "price": 58.75
+      },
+      {
+        "product": "Throw Blanket",
+        "category": "Home",
+        "quantity": 3,
+        "price": 45.0
+      }
+    ],
+    "total": 252.5,
+    "createdAt": "2026-08-14"
+  },
+  {
+    "id": "ORD-0037",
+    "customer": "Harper Davis",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 4,
+        "price": 58.75
+      },
+      {
+        "product": "Wall Clock",
+        "category": "Home",
+        "quantity": 3,
+        "price": 31.25
+      },
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 89.99
+      },
+      {
+        "product": "Wireless Mouse",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 34.5
+      }
+    ],
+    "total": 453.24,
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": "ORD-0038",
+    "customer": "Sofia Patel",
+    "country": "United States",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Packing Cubes",
+        "category": "Travel",
+        "quantity": 4,
+        "price": 29.99
+      },
+      {
+        "product": "Coffee Grinder",
+        "category": "Kitchen",
+        "quantity": 1,
+        "price": 79.95
+      }
+    ],
+    "total": 199.91,
+    "createdAt": "2026-09-03"
+  },
+  {
+    "id": "ORD-0039",
+    "customer": "Liam Chen",
+    "country": "Canada",
+    "status": "refunded",
+    "items": [
+      {
+        "product": "Wall Clock",
+        "category": "Home",
+        "quantity": 3,
+        "price": 31.25
+      }
+    ],
+    "total": 83.75,
+    "createdAt": "2026-08-20"
+  },
+  {
+    "id": "ORD-0040",
+    "customer": "Isabella Rossi",
+    "country": "Italy",
+    "status": "completed",
+    "items": [
+      {
+        "product": "Mechanical Keyboard",
+        "category": "Electronics",
+        "quantity": 3,
+        "price": 89.99
+      },
+      {
+        "product": "Desk Lamp",
+        "category": "Office",
+        "quantity": 1,
+        "price": 58.75
+      }
+    ],
+    "total": 328.72,
+    "createdAt": "2026-09-25"
+  }
+]
